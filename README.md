@@ -53,3 +53,8 @@ Start the server
 
 - [@Subham](https://www.github.com/subham3604)
 
+
+## Future Opimizations 
+* Let other users join the video meeting.
+* Implementing user login.
+* Some other functionalities enhancing the user experience.
