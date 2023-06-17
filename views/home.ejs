@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="/css/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/home_style.css">
+    <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+    <title>QuickCall</title>
+</head>
+<body>
+    <div id="header"><img src='/css/quickcall.jpg' style="border-radius: 10px;"></div>
+    <div id="root-div">
+        <div id="left-div">
+            <div id="large-message">
+                Quick Video Meetings.<br/> 
+                Now at your finger tips.
+            </div>
+
+            <div id="small-message">
+                We at QuickCall want to make online meetings hassle free.<br/>
+                Its free and Quick:)
+            </div>
+
+            <div id="new-meeting-root">
+                <div id="start-meeting" style="background-color:rgb(251, 255, 3) ;color: black;">
+                    <a href="/room" style="background-color:rgb(251, 255, 3) ;color: black;">&emsp;<i class="fas fa-plus"></i>&nbsp;
+                    New Meeting</a>
+                </div>
+
+                <div id="enter-meeting-link">
+                    <i class="fas fa-keyboard"></i>
+                    <input type="text" name="link" placeholder="Enter meeting link" id="meeting-link-text-box">
+                </div>
+                <div id="join-button">Join</div>
+            </div>
+        </div>
+
+        <div id="right-div">
+            <img src="https://img.freepik.com/free-vector/remote-team-concept-illustration_114360-6489.jpg?w=1060&t=st=1664083453~exp=1664084053~hmac=21ed0535fc764148e541598a7487b7190d54c8ff750391f5745f4da5323e9386">
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById('join-button').addEventListener('click', function() {
+        let input = document.getElementById('meeting-link-text-box').value;
+        window.location.assign(input);
+        document.getElementById('meeting-link-text-box').value = "";
+    });
+</script>
