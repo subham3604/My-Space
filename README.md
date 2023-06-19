@@ -42,8 +42,17 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Install the peerJS module globally 
+```bash
+  npm install -g peer
+```
 
+Start the peer server 
+```bash
+  peerjs port 3001
+```
+
+Start the server 
 ```bash
   npm start
 ```
