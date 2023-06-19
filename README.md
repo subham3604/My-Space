@@ -55,6 +55,5 @@ Start the server
 
 
 ## Future Opimizations 
-* Let other users join the video meeting.
 * Implementing user login.
 * Some other functionalities enhancing the user experience.
